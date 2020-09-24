@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './App.css';
 import App from './App';
 import PropTypes from 'prop-types';
-import Big from './big.mjs';
+import Big from 'big.js';
 
 ReactDOM.render(
   <React.StrictMode>
