@@ -3,9 +3,9 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-    CALCULATOR APP
+      CALCULATOR APP
     </div>
-  )
+  );
 }
 
 export default App;
