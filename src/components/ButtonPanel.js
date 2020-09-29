@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from './Button';
 
-
 export default function ButtonPanel() {
   return (
     <div className="Groups">
@@ -35,5 +34,5 @@ export default function ButtonPanel() {
         <Button name="=" />
       </div>
     </div>
-  )
+  );
 }

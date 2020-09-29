@@ -18,6 +18,11 @@ This app was deployed using heroku.
 
 [Live Link](https://calculator-app1-react.herokuapp.com/)
 
+## Screenshot
+
+<img width="1440" alt="Screenshot 2020-09-29 at 12 26 03" src="https://user-images.githubusercontent.com/25789009/94540314-fb321480-024e-11eb-999d-817fbae3c514.png">
+
+
 ## Available Scripts
 
 In the project directory, you can run:

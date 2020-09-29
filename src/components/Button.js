@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Button({name}) {
+export default function Button({ name }) {
   return (
     <div>
-    {name}
+      {name}
     </div>
   );
 }
