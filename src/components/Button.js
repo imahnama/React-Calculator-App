@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export default function Button({ name }) {
   return (
-    <button>
+    <button type="button">
       {name}
     </button>
   );
@@ -11,8 +11,4 @@ export default function Button({ name }) {
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
-};
-
-Button.defaultProps = {
-  name: '',
 };
