@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export default function Display({ result }) {
   return (
-    <div className="result ml-5">{ result}</div>
+    <div className="result d-flex justify-content-end">{ result}</div>
   );
 }
 
