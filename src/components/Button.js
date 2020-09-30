@@ -3,12 +3,16 @@ import PropTypes from 'prop-types';
 
 export default function Button({ name }) {
   return (
-    <div>
+    <button>
       {name}
-    </div>
+    </button>
   );
 }
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
+};
+
+Button.defaultProps = {
+  name: '',
 };
