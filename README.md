@@ -18,7 +18,24 @@ This app was deployed using heroku.
 
 [Live Link](https://calculator-app1-react.herokuapp.com/)
 
-## Available Scripts
+## Screenshot
+
+<img width="1440" alt="Screenshot 2020-09-29 at 12 26 03" src="https://user-images.githubusercontent.com/25789009/94540314-fb321480-024e-11eb-999d-817fbae3c514.png">
+
+
+## Getting Started
+
+1. clone the Project
+
+# Clone this repository
+
+`git clone https://github.com/imahnama/React-Calculator-App.git`
+
+# Go into the repository
+
+`cd React-Calculator-App`
+
+# start the app
 
 In the project directory, you can run:
 
@@ -29,6 +46,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+## For webpack run:
+
+`npm run build`
+
+`npm run start`
 
 👤 **Rahma Halane**
 - [Portfolio](https://raw.githack.com/imahnama/my-portfolio/develop/index.html)
