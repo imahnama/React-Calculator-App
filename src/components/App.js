@@ -4,7 +4,7 @@ import Display from './Display';
 
 export default function App() {
   return (
-    <div>
+    <div className="app d-flex flex-column mt-5">
       <Display />
       <ButtonPanel />
     </div>
