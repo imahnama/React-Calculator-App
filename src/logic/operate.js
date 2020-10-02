@@ -16,5 +16,5 @@ export default function operate(numberOne, numberTwo, operation) {
   } else if (operation === '%') {
     result = firstNumber.mod(secondNumber);
   }
-  return result
+  return result;
 }
