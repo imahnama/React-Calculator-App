@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 import operate from './operate';
 
 const calculate = (data, buttonName) => {

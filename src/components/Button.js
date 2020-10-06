@@ -4,7 +4,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export default function Button({
-  buttonName, color, wide, handleClick, }) {
+  buttonName, color, wide, handleClick,
+}) {
   return (
     <div className={wide ? 'zerobtn-style' : 'button-style'}>
       <button type="button" className="name-buttons" style={{ backgroundColor: color }} onClick={() => handleClick(buttonName)}>{ buttonName }</button>
@@ -18,7 +19,7 @@ Button.defaultProps = {
 };
 
 Button.propTypes = {
-  name: PropTypes.string.isRequired,
+  buttonName: PropTypes.string.isRequired,
   color: PropTypes.string,
   wide: PropTypes.bool.isRequired,
   handleClick: PropTypes.func.isRequired,

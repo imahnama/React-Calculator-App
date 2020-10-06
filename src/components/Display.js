@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 export default function Display({ result, operation, next }) {
   return (
     <div className="result d-flex justify-content-end">
-    {result}
-    {' '}
-    {operation}
-    {' '}
-    {next}
+      {result}
+      {' '}
+      {operation}
+      {' '}
+      {next}
     </div>
   );
 }

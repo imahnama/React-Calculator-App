@@ -30,7 +30,7 @@ export default class App extends React.Component {
     const { next, result, operation } = this.state;
     return (
       <div className="app d-flex flex-column mt-5">
-        <Display result={result} next={next} operation={operation}/>
+        <Display result={result} next={next} operation={operation} />
         <ButtonPanel clickHandler={buttonName => this.handleClick(buttonName)} />
       </div>
     );
